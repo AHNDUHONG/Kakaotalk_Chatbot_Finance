@@ -4,7 +4,7 @@ import requests
 import pandas_datareader.data as web
 
 
-passwd =                'b55d94be7d8dbef24e28a72a0dcb228fb48d1595665100e8da2cd1aafbe8bbbc'
+passwd =                ''
 db = psycopg2.connect(host='ec2-54-204-56-171.compute-1.amazonaws.com', dbname='d2p5j2up8o05rg',user='dywzgxybcyjnzu',password= passwd,port=5432)
 cur=db.cursor()
 
