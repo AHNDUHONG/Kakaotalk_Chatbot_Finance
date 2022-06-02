@@ -1,10 +1,9 @@
 import psycopg2
+import requests
 
-item = "'삼성전자'"
-many = "10"
-user1 = "'gdq153'"
-useruser = "gdq153"
-money = "350000"
+# user1 = gdq1
+body = request.get_json() # 사용자가 입력한 데이터
+user1 = "'%s'" %str(body['userRequest']['user']['id']) 
 
 passwd = 'b55d94be7d8dbef24e28a72a0dcb228fb48d1595665100e8da2cd1aafbe8bbbc'
 db = psycopg2.connect(host='ec2-54-204-56-171.compute-1.amazonaws.com', dbname='d2p5j2up8o05rg',user='dywzgxybcyjnzu',password= passwd,port=5432)
