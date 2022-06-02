@@ -1,14 +1,14 @@
 import psycopg2
 from datetime import datetime
 
-passwd =                ''
-db = psycopg2.connect(host='', dbname='',user='',password= passwd,port=5432)
+passwd =                '5280c3caeed8c1cb512f19d6fc238a6ab642556e69c3050ddfe232c4c4372d0e'
+db = psycopg2.connect(host='ec2-3-234-131-8.compute-1.amazonaws.com', dbname='ec2-3-234-131-8.compute-1.amazonaws.com',user='ndurbfpbebgdrc',password= passwd,port=5432)
 cur=db.cursor()
 
 # 날짜, id, 점수 
 date_data = datetime.today().strftime('%Y-%m-%d')
-id_data = "''"
-idid_data = ''
+id_data = "'ww'"
+idid_data = 'ww'
 score_data = '2'
 
 
@@ -42,7 +42,7 @@ else :
 # print(type(rows))
 
 # POSTGRESQL DB에 COMMIT 하기
-db.commit()
+# db.commit()
 
 
 
