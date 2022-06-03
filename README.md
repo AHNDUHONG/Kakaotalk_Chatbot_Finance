@@ -40,3 +40,5 @@
 
 ### 4. 개발 환경
 ![image](https://user-images.githubusercontent.com/101306629/171782229-2208d04c-c990-4829-9958-bfff6c37194e.png)
+
+### 5. 프로젝트 수행 기록
