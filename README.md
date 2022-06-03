@@ -1,6 +1,6 @@
 # 카카오톡 휴먼주식도우미챗봇 프로젝트
 
-![챗봇 이미지](https://user-images.githubusercontent.com/101306629/171777348-037dac8e-48a1-4cbd-a952-6698bc3b1865.png)
+![image](https://user-images.githubusercontent.com/101306629/171777658-641f5831-608c-4b8f-9b59-0c895c592d07.png)
 
 * 본 프로젝트는 휴먼교육센터학원 주도하에 이루어진 프로젝트입니다
 * 프로젝트 참여 인원은 총 4명이며 팀장: 안두홍, 팀원: 조해성, 황우빈, 김민균으로 이루어져 있습니다.
