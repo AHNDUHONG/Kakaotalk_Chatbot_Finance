@@ -1,5 +1,39 @@
-<<<<<<< HEAD
-# Kakaotalk_chatbot_finance
-=======
-# Kakaotalk_Chatbot_Finance
->>>>>>> f3c5581d0ae0a06d4d8055545d2353e397e61e96
+# 주식도우미 카카오 챗봇
+
+- 해당 프로젝트에서는 카카오톡 챗봇 오픈빌더를 이용하여 주식 입문자를 위한 챗봇 제작을 목적으로 설정하고 진행하였습니다.
+    
+    ![휴먼주식챗봇 도우미](https://user-images.githubusercontent.com/101307758/171578468-013ce4e2-e419-4390-8b80-fbb44dd72fc3.png)
+    
+
+# **목표**
+
+- 주식에 입문하려는 사람들에게 유용할 정보를 제공하여 입문을 돕고자  합니다.
+- 카카오톡 챗봇 오픈빌더, HEROKU, PostgreSQL을 이용해서 카카오톡 스킬 서버 및 데이터베이스를 연동하여 필요한 정보를 제공한다.
+
+# **주요 서비스 내용**
+
+- 각 증권사 수수료 정보 제공
+- 주식 용어 설명
+- 실시간 주식 종목 시세 정보 제공
+- 인기있는 종목 정보 제공
+    - 거래 상위, 검색 상위
+- 주식 관련 정보 제공
+- 모의 주식 투자 체험
+
+# **설명**
+
+- 인원 : 4명
+- 언어 : Python
+- 서버 : HEROKU
+- DB : PostgreSQL
+- 사용 라이브러리 : pandas, requests, BeautifulSoup, flask, jsonify, psycopg2
+- 기간: 2022.05.20. ~ 2022.06.03.
+- 담당업무 : 챗봇 전체 시나리오 기획, 웹크롤링을 통한 데이터 수집, 카카오톡 스킬 구현, DB 구축
+
+# **시연 영상**
+
+[시연 영상 - 유튜브 링크](https://www.youtube.com/watch?v=M0EddEJAT_Y)
+
+# **챗봇 링크**
+
+[휴먼주식도우미 챗봇 링크](http://pf.kakao.com/_YvNLb/chat)
