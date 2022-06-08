@@ -12,10 +12,10 @@
 * 주식 입문자를 위한 카카오톡 챗봇을 개발하는 프로젝트 기획 및 과정, 결과 단계를 나타내고 있습니다.
 
 ## 참여 인원
-1. 팀장: 안두홍
-2. 팀원: 조해성
-3. 팀원: 황우빈
-4. 팀원: 김민균
+* **팀장: 안두홍 [Github](https://github.com/AHNDUHONG)**
+* **팀원: 조해성 [Github](https://github.com/Griotold)**
+* **팀원: 황우빈 [Github](https://github.com/WoobinHwang)**
+* **팀원: 김민균 [Github](https://github.com/kmk3593)**
 
 ## 목차
 1. 프로젝트 분석 개요
