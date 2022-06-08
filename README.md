@@ -13,7 +13,10 @@
 
 ## 목차
 1. 프로젝트 분석 개요
-2. 프로젝트 
+2. 카카오톡 챗봇 시스템 Flow Chart
+3. 시나리오 구성 개요
+4. 개발 환경
+5. 프로젝트 수행기록 
 
 ### 1. 프로젝트 분석 개요
 #### 1-1. 데이터 수집
@@ -105,7 +108,7 @@ print("good")
 ##### 실제 챗봇 반영 결과
 ![image](https://user-images.githubusercontent.com/101306629/172611931-d7ee9812-0504-4dc0-85b9-7aa099c914e9.png)
 
-##### 사용 코드
+##### 사용 코드 (일부)
 ``` python
 # from flask import Flask, request
 import requests
