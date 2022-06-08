@@ -23,42 +23,42 @@
 4. 개발 환경
 5. 프로젝트 수행기록 
 
-### 1. 프로젝트 분석 개요
-#### 1-1. 데이터 수집
+## 1. 프로젝트 분석 개요
+### 1-1. 데이터 수집
         - 웹 크롤링
         - Pandas 활용 데이터 가공 및 추출
         - 데이터 웹 서치
-#### 1-2. 챗봇 서비스 기획
+### 1-2. 챗봇 서비스 기획
         - 시나리오 구성
         - 블록 구성
         - 카카오톡 스킬 및 Document 확인
-#### 1-3. 챗봇 서비스 구현
+### 1-3. 챗봇 서비스 구현
         - 시나리오 작성
         - 블록 작성
-#### 1-4 카카오톡 스킬 구현
+### 1-4 카카오톡 스킬 구현
         - 크롤링 및 데이터 Heroku 서버 적용 및 배포
         - DB 구축 및 연동(PostSQL사용)
         - 카카오톡 엔티티 작성
 
-### 2. 카카오톡 챗봇 시스템 Flow Chart
+## 2. 카카오톡 챗봇 시스템 Flow Chart
 ![image](https://user-images.githubusercontent.com/101306629/171781823-b6eb8e9c-0f34-49fe-8fcc-8be837eb049c.png)
 
-### 3. 시나리오 구성 개요
+## 3. 시나리오 구성 개요
 ![image](https://user-images.githubusercontent.com/101306629/171781871-fa5043e9-4235-42f1-9a7d-14e95ab1d2e7.png)
 
-### 4. 개발 환경
+## 4. 개발 환경
 ![image](https://user-images.githubusercontent.com/101306629/171782229-2208d04c-c990-4829-9958-bfff6c37194e.png)
 
-### 5. 프로젝트 수행 기록
-#### 5-1. 주식 시세 실시간 응답
-##### 기획
+## 5. 프로젝트 수행 기록
+### 5-1. 주식 시세 실시간 응답
+#### 기획
 * 사용자가 원하는 주식명을 입력하면 현재 가격을 응답하는 기능
 * Pandas를 이용하여 주식 시세를 불러오고 웹 크롤링으로 Pandas에 쓸 주식 코드를 크롤링
 
-##### 실제 챗봇 반영 결과
+#### 실제 챗봇 반영 결과
 ![image](https://user-images.githubusercontent.com/101306629/172610891-23e2661a-db89-4d2e-b1f2-63a64b7f1a5d.png)
 
-##### 사용 코드
+#### 사용 코드
 ```python
 import requests
 from bs4 import BeautifulSoup
@@ -102,18 +102,18 @@ except AttributeError:
 print("good")
 ```
 
-#### 5-2. 모의투자 (DB활용)
-##### 기획
+### 5-2. 모의투자 (DB활용)
+#### 기획
 * 체험용으로 투자를 체험 가능한 기능을 구현
 * DB에 사용자의 고유ID, 가상자산, 보유주식 등 정보를 저장하며 상황에 맞게 사칙연산도 가능하여 사용자에게 전달함
 
-##### 알고리즘
+#### 알고리즘
 ![image](https://user-images.githubusercontent.com/101306629/172611332-84321457-b832-4016-8b31-46a618e12098.png)
 
-##### 실제 챗봇 반영 결과
+#### 실제 챗봇 반영 결과
 ![image](https://user-images.githubusercontent.com/101306629/172611931-d7ee9812-0504-4dc0-85b9-7aa099c914e9.png)
 
-##### 사용 코드 (일부)
+#### 사용 코드 (일부)
 ``` python
 # from flask import Flask, request
 import requests
