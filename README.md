@@ -43,6 +43,14 @@
 
 ### 5. 프로젝트 수행 기록
 #### 5-1. 주식 시세 실시간 응답
+##### 기획
+* 사용자가 원하는 주식명을 입력하면 현재 가격을 응답하는 기능
+* Pandas를 이용하여 주식 시세를 불러오고 웹 크롤링으로 Pandas에 쓸 주식 코드를 크롤링
+
+##### 실제 챗봇 결과
+![image](https://user-images.githubusercontent.com/101306629/172610891-23e2661a-db89-4d2e-b1f2-63a64b7f1a5d.png)
+
+##### 사용 코드
 ```python
 import requests
 from bs4 import BeautifulSoup
